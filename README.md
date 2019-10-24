@@ -4,6 +4,18 @@
 ```
 yarn install
 ```
+## Local development for gridsome via vue-cli fork
+```
+cd #somewhere
+clone git@github.com:ChristophWalter/gridsome.git
+cd gridsome/gridsome
+yarn link
+```
+
+```
+cd #here
+yarn link gridsome
+```
 
 ### Compiles and hot-reloads for development
 ```
