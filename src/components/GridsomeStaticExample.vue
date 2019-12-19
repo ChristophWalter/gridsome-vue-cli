@@ -33,7 +33,7 @@ export default {
   name: "GridsomeStaticExample",
   computed: {
     characters() {
-      return this.$static.data.rickandmorty.characters.results;
+      return this.$static.rickandmorty.characters.results;
     }
   }
 };

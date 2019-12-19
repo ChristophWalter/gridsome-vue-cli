@@ -18,6 +18,9 @@ function createGraphQLRule(config, type, loader) {
 }
 
 module.exports = {
+  devServer: {
+    port: 3000
+  },
   chainWebpack: config => {
     createGraphQLRule(
       config,

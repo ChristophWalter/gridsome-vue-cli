@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "gridsome": "gridsome explore"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.3.2",
@@ -36,6 +35,11 @@
     "*.{js,vue}": [
       "vue-cli-service lint",
       "git add"
+    ]
+  },
+  "vuePlugins": {
+    "service": [
+      "vue-cli-plugin-gridsome.js"
     ]
   }
 }
